@@ -6,11 +6,13 @@ import { GoslingSpec } from 'gosling.js';
 // Based on https://github.com/gosling-lang/gosling.js/blob/58121b0d536e34c02cea9b2c046cc9efa734fe94/src/core/utils/theme.ts#L5
 import { light } from './light';
 import { dark } from './dark';
+import { warm } from './warm';
 import { test } from './test';
 
 export const Themes = {
     light,
     dark,
+    warm,
     // just for testing this. Remove when start implementing
     test
 }
