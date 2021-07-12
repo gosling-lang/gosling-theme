@@ -18,6 +18,10 @@ import { GoslingComponent } from 'gosling.js';
 
 <GoslingComponent spec={spec} theme={'dark'}>
 
+// to customize the style
+
+<GoslingComponent spec={spec} theme={{base: 'dark', axis: { baselineColor: 'green' }}>
+
 ```
 
 You can find an example `html` file below `\demo`.
