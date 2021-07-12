@@ -5,6 +5,7 @@
   "main": "dist/gosling-theme.js",
   "unpkg": "dist/gosling-theme.min.js",
   "module": "dist/gosling-theme.module.js",
+  "types": "build/gosling-theme.module.d.ts",
   "repository": "https://github.com/gosling-lang/gosling-theme",
   "license": "MIT",
   "scripts": {
