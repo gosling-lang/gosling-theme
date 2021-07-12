@@ -32,3 +32,11 @@ yarn
 ```sh
 yarn start
 ```
+
+### Publish Package
+When you patch the version and push the code with tags, GitHub will do the job to publish the latest NPM package:
+
+```sh
+yarn version --patch
+git push origin master --tags
+```
