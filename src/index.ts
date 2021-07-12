@@ -7,17 +7,17 @@ import { GoslingSpec } from 'gosling.js';
 import { light } from './light';
 import { dark } from './dark';
 import { warm } from './warm';
-import { test } from './test';
 
 export const Themes = {
     light,
     dark,
-    warm,
-    // just for testing this. Remove when start implementing
-    test
+    warm
+}
+
+export function IsThereTheme(key: string) {
+    return Object.keys(Themes).indexOf(key) !== -1;
 }
 
 export function getTheme(key: string) {
-    const valid = Object.keys(Themes).indexOf(key) !== -1;
-    return valid ? (Themes as any)[key] : Themes['light'];
+    return IsThereTheme(key) ? (Themes as any)[key] : Themes['light'];
 }
