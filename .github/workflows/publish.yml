@@ -37,4 +37,3 @@ jobs:
       - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-{"mode":"full","isActive":false}
