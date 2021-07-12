@@ -1,9 +1,9 @@
 {
   "name": "gosling-theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Styling Gosling Visualizations Using Theme",
   "main": "dist/gosling-theme.js",
-  "unpkg": "dist/gosling-theme.min.js", 
+  "unpkg": "dist/gosling-theme.min.js",
   "module": "dist/gosling-theme.module.js",
   "repository": "https://github.com/gosling-lang/gosling-theme",
   "license": "MIT",
