@@ -1,6 +1,6 @@
 {
   "name": "gosling-theme",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Styling Gosling Visualizations Using Theme",
   "main": "dist/gosling-theme.js",
   "unpkg": "dist/gosling-theme.min.js",
@@ -20,9 +20,11 @@
     "browser-sync": "^2.27.4",
     "concurrently": "^6.2.0",
     "gh-pages": "^3.2.3",
-    "gosling.js": "^0.8.4",
     "rollup": "^2.52.7",
     "rollup-plugin-terser": "^7.0.2",
     "typescript": "~4.1.2"
+  },
+  "dependencies": {
+    "gosling.js": "0.8.7"
   }
 }

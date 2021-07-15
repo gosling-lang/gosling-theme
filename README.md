@@ -18,6 +18,10 @@ import { GoslingComponent } from 'gosling.js';
 
 <GoslingComponent spec={spec} theme={'dark'}>
 
+// to customize the style
+
+<GoslingComponent spec={spec} theme={{base: 'dark', axis: { baselineColor: 'green' }}>
+
 ```
 
 You can find an example `html` file below `\demo`.
@@ -31,4 +35,12 @@ yarn
 ### Run Demo
 ```sh
 yarn start
+```
+
+### Publish Package
+When you patch the version and push the code with tags, GitHub will do the job to publish the latest NPM package:
+
+```sh
+yarn version --patch
+git push origin master --tags
 ```
