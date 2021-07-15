@@ -37,6 +37,18 @@ yarn
 yarn start
 ```
 
+This opens a webpage based on `demo/index.html`. 
+
+To test with other themes defined in `src/`, you need to change the following line of code in `demo/index.html`:
+
+```js
+{
+    theme: goslingTheme.Themes.washu
+}
+```
+
+If you make changes in files below `src/`, you will need to re-run the `yarn start` command to test in the demo webpage.
+
 ### Publish Package
 When you patch the version and push the code with tags, GitHub will do the job to publish the latest NPM package:
 
