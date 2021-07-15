@@ -1,4 +1,4 @@
-const NOMINAL_COLOR = ['#E79F00', '#029F73', '#0072B2', '#CB7AA7', '#D45E00', '#57B4E9', '#EFE441' /*'#000000'*/];
+const NOMINAL_COLOR = ['#6E12AC', '#15C250', '#E70FB1', '#FF8E55', '#A3B8F3', '#DE5E59', '#77AAAA','#F5CCCA' /*'#000000'*/];
 
 const WashUThemeMarkCommonStyle = {
     color: NOMINAL_COLOR[0],
@@ -15,32 +15,32 @@ export const washu = {
 
     root: {
         background: 'white',
-        titleColor: 'black',
-        subtitleColor: 'gray',
+        titleColor: 'gray',
+        subtitleColor: 'lightgray',
         mousePositionColor: '#000000'
     },
 
     track: {
-        titleColor: 'black',
+        titleColor: 'gray',
         titleBackground: 'white',
-        outline: 'black',
+        outline: 'gray',
         outlineWidth: 1
     },
 
     legend: {
         background: 'white',
         backgroundOpacity: 0.7,
-        labelColor: 'black',
+        labelColor: 'gray',
         backgroundStroke: '#DBDBDB',
-        tickColor: 'black'
+        tickColor: 'gray'
     },
 
     axis: {
-        tickColor: 'black',
-        labelColor: 'black',
-        baselineColor: 'black',
-        gridColor: '#E3E3E3',
-        gridStrokeWidth: 1
+        tickColor: 'lightgray',
+        labelColor: 'gray',
+        baselineColor: 'gray',
+        gridColor: 'transparent',
+        gridStrokeWidth: 0
     },
 
     markCommon: {
@@ -82,7 +82,7 @@ export const washu = {
         ...WashUThemeMarkCommonStyle,
         color: 'gray',
         opacity: 0.3,
-        stroke: 'black',
+        stroke: 'gray',
         strokeWidth: 1
     }
 }
