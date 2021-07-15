@@ -1,4 +1,4 @@
-const NOMINAL_COLOR = ['#E79F00', '#029F73', '#0072B2', '#CB7AA7', '#D45E00', '#57B4E9', '#EFE441' /*'#000000'*/];
+const NOMINAL_COLOR = ['#CD9B1D', '#8A668B', '#40E0D0', '#D9D9D9', '#FF6969', '#666666', '#FAC902','#FE0000','#CC96CD' /*'#000000'*/];
 
 const EnsemblThemeMarkCommonStyle = {
     color: NOMINAL_COLOR[0],
@@ -15,31 +15,31 @@ export const ensembl = {
 
     root: {
         background: 'white',
-        titleColor: 'black',
-        subtitleColor: 'gray',
+        titleColor: '#353535',
+        subtitleColor: '#494949',
         mousePositionColor: '#000000'
     },
 
     track: {
-        titleColor: 'black',
-        titleBackground: 'white',
-        outline: 'black',
+        titleColor: 'white',
+        titleBackground: '#7B8BAF',
+        outline: '#7B8BAF',
         outlineWidth: 1
     },
 
     legend: {
-        background: 'white',
-        backgroundOpacity: 0.7,
-        labelColor: 'black',
-        backgroundStroke: '#DBDBDB',
-        tickColor: 'black'
+        background: '#7B8BAF',
+        backgroundOpacity: 1,
+        labelColor: 'white',
+        backgroundStroke: 'white',
+        tickColor: '#4f4f4f'
     },
 
     axis: {
-        tickColor: 'black',
-        labelColor: 'black',
+        tickColor: '#4f4f4f',
+        labelColor: 'white',
         baselineColor: 'black',
-        gridColor: '#E3E3E3',
+        gridColor: '#7B8BAF',
         gridStrokeWidth: 1
     },
 
