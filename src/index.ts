@@ -13,7 +13,7 @@ import { warm } from './ensembl';
 import { warm } from './jbrowse';
 import { warm } from './ucsc';
 import { warm } from './washu';
-import { warm } from './excel;
+import { warm } from './excel';
 import { warm } from './google';
 import { test } from './test';
 
