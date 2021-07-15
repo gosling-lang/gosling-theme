@@ -1,4 +1,4 @@
-const NOMINAL_COLOR = ['#E79F00', '#029F73', '#0072B2', '#CB7AA7', '#D45E00', '#57B4E9', '#EFE441' /*'#000000'*/];
+const NOMINAL_COLOR = ['#4185f4', '#DB4437', '#F4B400', '#0D9D58', '#AA30C3', '#FF6E02', '#CBC74C' /*'#000000'*/];
 
 const GoogleThemeMarkCommonStyle = {
     color: NOMINAL_COLOR[0],
@@ -15,13 +15,13 @@ export const google = {
 
     root: {
         background: 'white',
-        titleColor: 'black',
-        subtitleColor: 'gray',
+        titleColor: '#999999',
+        subtitleColor: 'black',
         mousePositionColor: '#000000'
     },
 
     track: {
-        titleColor: 'black',
+        titleColor: '#999999',
         titleBackground: 'white',
         outline: 'black',
         outlineWidth: 1
@@ -31,7 +31,7 @@ export const google = {
         background: 'white',
         backgroundOpacity: 0.7,
         labelColor: 'black',
-        backgroundStroke: '#DBDBDB',
+        backgroundStroke: '#black',
         tickColor: 'black'
     },
 
@@ -39,7 +39,7 @@ export const google = {
         tickColor: 'black',
         labelColor: 'black',
         baselineColor: 'black',
-        gridColor: '#E3E3E3',
+        gridColor: '#black',
         gridStrokeWidth: 1
     },
 
@@ -80,7 +80,7 @@ export const google = {
     },
     brush: {
         ...GoogleThemeMarkCommonStyle,
-        color: 'gray',
+        color: '#999999',
         opacity: 0.3,
         stroke: 'black',
         strokeWidth: 1
