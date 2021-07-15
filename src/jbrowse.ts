@@ -1,4 +1,4 @@
-const NOMINAL_COLOR = ['#E79F00', '#029F73', '#0072B2', '#CB7AA7', '#D45E00', '#57B4E9', '#EFE441' /*'#000000'*/];
+const NOMINAL_COLOR = ['#3A62FE', '#F85353', '#DCA326', '#03BF06', '#BABABA'/*'#000000'*/];
 
 const JBrowseThemeMarkCommonStyle = {
     color: NOMINAL_COLOR[0],
@@ -21,17 +21,17 @@ export const jbrowse = {
     },
 
     track: {
-        titleColor: 'black',
-        titleBackground: 'white',
+        titleColor: 'white',
+        titleBackground: '#0B243F',
         outline: 'black',
         outlineWidth: 1
     },
 
     legend: {
-        background: 'white',
+        background: '#732162',
         backgroundOpacity: 0.7,
         labelColor: 'black',
-        backgroundStroke: '#DBDBDB',
+        backgroundStroke: '#black',
         tickColor: 'black'
     },
 
@@ -39,7 +39,7 @@ export const jbrowse = {
         tickColor: 'black',
         labelColor: 'black',
         baselineColor: 'black',
-        gridColor: '#E3E3E3',
+        gridColor: '#c5d5d9',
         gridStrokeWidth: 1
     },
 
@@ -80,7 +80,7 @@ export const jbrowse = {
     },
     brush: {
         ...JBrowseThemeMarkCommonStyle,
-        color: 'gray',
+        color: '#c5d5d9',
         opacity: 0.3,
         stroke: 'black',
         strokeWidth: 1
