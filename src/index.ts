@@ -15,7 +15,6 @@ import { ucsc } from './ucsc';
 import { washu } from './washu';
 import { excel } from './excel';
 import { google } from './google';
-import { test } from './test';
 
 export const Themes = {
     light,
@@ -28,12 +27,13 @@ export const Themes = {
     ucsc,
     washu,
     excel,
-    google,
-    // just for testing this. Remove when start implementing
-    test
+    google
+}
+
+export function IsThereTheme(key: string) {
+    return Object.keys(Themes).indexOf(key) !== -1;
 }
 
 export function getTheme(key: string) {
-    const valid = Object.keys(Themes).indexOf(key) !== -1;
-    return valid ? (Themes as any)[key] : Themes['light'];
+    return IsThereTheme(key) ? (Themes as any)[key] : Themes['light'];
 }
