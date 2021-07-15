@@ -1,9 +1,9 @@
-const NOMINAL_COLOR = ['#E79F00', '#029F73', '#0072B2', '#CB7AA7', '#D45E00', '#57B4E9', '#EFE441' /*'#000000'*/];
+const NOMINAL_COLOR = ['#ED7D31', '#FFC207', '#9E480E', '#A5A5A5', '#4472C4', '#264378', '#76AE4F','#5B9CD5' /*'#000000'*/];
 
 const ExcelThemeMarkCommonStyle = {
     color: NOMINAL_COLOR[0],
     size: 1,
-    stroke: 'black',
+    stroke: '#5A5A5A',
     strokeWidth: 0,
     opacity: 1,
     nominalColorRange: NOMINAL_COLOR,
@@ -15,31 +15,31 @@ export const excel = {
 
     root: {
         background: 'white',
-        titleColor: 'black',
-        subtitleColor: 'gray',
+        titleColor: '#5A5A5A',
+        subtitleColor: '#5A5A5A',
         mousePositionColor: '#000000'
     },
 
     track: {
-        titleColor: 'black',
+        titleColor: '#5A5A5A',
         titleBackground: 'white',
-        outline: 'black',
+        outline: '#5A5A5A',
         outlineWidth: 1
     },
 
     legend: {
         background: 'white',
         backgroundOpacity: 0.7,
-        labelColor: 'black',
-        backgroundStroke: '#DBDBDB',
-        tickColor: 'black'
+        labelColor: '#5A5A5A',
+        backgroundStroke: '#5A5A5A',
+        tickColor: '#5A5A5A'
     },
 
     axis: {
-        tickColor: 'black',
-        labelColor: 'black',
-        baselineColor: 'black',
-        gridColor: '#E3E3E3',
+        tickColor: '#5A5A5A',
+        labelColor: '#5A5A5A',
+        baselineColor: '#5A5A5A',
+        gridColor: '#5A5A5A',
         gridStrokeWidth: 1
     },
 
@@ -80,9 +80,9 @@ export const excel = {
     },
     brush: {
         ...ExcelThemeMarkCommonStyle,
-        color: 'gray',
+        color: '#5A5A5A',
         opacity: 0.3,
-        stroke: 'black',
+        stroke: '#5A5A5A',
         strokeWidth: 1
     }
 }
