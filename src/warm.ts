@@ -85,4 +85,4 @@ export const warm = {
         stroke: '#3C3C3C',
         strokeWidth: 1
     }
-}
+
