@@ -7,12 +7,28 @@ import { GoslingSpec } from 'gosling.js';
 import { light } from './light';
 import { dark } from './dark';
 import { warm } from './warm';
+import { warm } from './ggplot';
+import { warm } from './igv';
+import { warm } from './ensembl';
+import { warm } from './jbrowse';
+import { warm } from './ucsc';
+import { warm } from './washu';
+import { warm } from './excel;
+import { warm } from './google';
 import { test } from './test';
 
 export const Themes = {
     light,
     dark,
     warm,
+    ggplot,
+    igv,
+    ensembl,
+    jbrowse,
+    ucsc,
+    washu,
+    excel,
+    google,
     // just for testing this. Remove when start implementing
     test
 }
