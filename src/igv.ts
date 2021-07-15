@@ -1,4 +1,4 @@
-const NOMINAL_COLOR = ['#001EFF','#FF0000','#66FF00','#BF40BF','#FFA500','#FFFF00','#00AEFF'];
+const NOMINAL_COLOR = ['#AEAFEA','#EBAEAE','#8743E0','#5233F0','#37E649','#ED2D44','#CE7B3D'];
 
 const IGVThemeMarkCommonStyle = {
     color: NOMINAL_COLOR[0],
@@ -21,14 +21,14 @@ export const igv = {
     },
 
     track: {
-        titleColor: 'black',
-        titleBackground: 'white',
-        outline: 'black',
+        titleColor: 'white',
+        titleBackground: '#5F5F5F',
+        outline: '#5F5F5F',
         outlineWidth: 1
     },
 
     legend: {
-        background: 'white',
+        background: '#FEFEFE',
         backgroundOpacity: 0.7,
         labelColor: 'black',
         backgroundStroke: 'black',
@@ -36,9 +36,9 @@ export const igv = {
     },
 
     axis: {
-        tickColor: 'darkgray',
-        labelColor: 'gray',
-        baselineColor: 'darkgray',
+        tickColor: 'black',
+        labelColor: 'black',
+        baselineColor: '#E6E6E6',
         gridColor: 'transparent',
         gridStrokeWidth: 0
     },
