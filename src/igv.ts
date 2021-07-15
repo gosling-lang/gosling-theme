@@ -1,4 +1,4 @@
-const NOMINAL_COLOR = ['#AEAFEA','#EBAEAE','#8743E0','#5233F0','#37E649','#ED2D44','#CE7B3D'];
+const NOMINAL_COLOR = ['#AEAFEA','#EBAEAE','#37E649','#ED2D44','#CE7B3D','#8743E0','#5233F0'];
 
 const IGVThemeMarkCommonStyle = {
     color: NOMINAL_COLOR[0],
