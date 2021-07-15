@@ -86,4 +86,4 @@ export const warm = {
             strokeWidth: 1
         }
     }
-}
+
