@@ -1,4 +1,4 @@
-const NOMINAL_COLOR = ['#E79F00', '#029F73', '#0072B2', '#CB7AA7', '#D45E00', '#57B4E9', '#EFE441' /*'#000000'*/];
+const NOMINAL_COLOR = ['#3A5FCD', '#FFA54E', '#8FBC8F', '#B6709B', '#EE6A50', '#CCB79E', '#DADA8F','#00CDCC','#EED5D2','#CD8EDD','#9ACD31','#D1BEA8','#FFB6C0' /*'#000000'*/];
 
 const UCSCThemeMarkCommonStyle = {
     color: NOMINAL_COLOR[0],
@@ -17,7 +17,7 @@ export const ucsc = {
         background: 'white',
         titleColor: 'black',
         subtitleColor: 'gray',
-        mousePositionColor: '#000000'
+        mousePositionColor: '#FE0000'
     },
 
     track: {
@@ -37,7 +37,7 @@ export const ucsc = {
 
     axis: {
         tickColor: 'black',
-        labelColor: 'black',
+        labelColor: '#3A5FCD',
         baselineColor: 'black',
         gridColor: '#E3E3E3',
         gridStrokeWidth: 1
