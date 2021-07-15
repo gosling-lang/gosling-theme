@@ -1,4 +1,4 @@
-const NOMINAL_COLOR = ['#CD9B1D', '#8A668B', '#40E0D0', '#D9D9D9', '#FF6969', '#666666', '#FAC902','#FE0000','#CC96CD' /*'#000000'*/];
+const NOMINAL_COLOR = ['#CD9B1D', '#8A668B', '#40E0D0', '#FF6969', '#666666', '#FAC902','#FE0000','#CC96CD', '#D9D9D9' /*'#000000'*/];
 
 const EnsemblThemeMarkCommonStyle = {
     color: NOMINAL_COLOR[0],
