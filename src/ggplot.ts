@@ -1,4 +1,4 @@
-const NOMINAL_COLOR = ['#888888','#CCCCCC','#666666','#AAAAAA','#222222','#444444','#000000'];
+const NOMINAL_COLOR = ['#F66A62','#05B230','#5692FF','#D764D6','#86E9D4','#6E6AD7','#FFFB00'];
 
 const GgplotThemeMarkCommonStyle = {
     color: NOMINAL_COLOR[0],
@@ -14,7 +14,7 @@ export const ggplot = {
     base: 'ggplot',
 
     root: {
-        background: '#EEEEEE',
+        background: 'WHITE',
         titleColor: 'black',
         subtitleColor: 'darkgray',
         mousePositionColor: 'black'
@@ -80,7 +80,7 @@ export const ggplot = {
     },
     brush: {
         ...GgplotThemeMarkCommonStyle,
-        color: '#EEEEEE',
+        color: 'black',
         opacity: 0.3,
         stroke: 'black',
         strokeWidth: 1
