@@ -7,14 +7,14 @@ import { GoslingSpec } from 'gosling.js';
 import { light } from './light';
 import { dark } from './dark';
 import { warm } from './warm';
-import { warm } from './ggplot';
-import { warm } from './igv';
-import { warm } from './ensembl';
-import { warm } from './jbrowse';
-import { warm } from './ucsc';
-import { warm } from './washu';
-import { warm } from './excel';
-import { warm } from './google';
+import { ggplot } from './ggplot';
+import { igv } from './igv';
+import { ensembl } from './ensembl';
+import { jbrowse } from './jbrowse';
+import { ucsc } from './ucsc';
+import { washu } from './washu';
+import { excel } from './excel';
+import { google } from './google';
 import { test } from './test';
 
 export const Themes = {
