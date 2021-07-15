@@ -1,4 +1,4 @@
-const NOMINAL_COLOR = ['#ED7D31', '#FFC207', '#9E480E', '#A5A5A5', '#4472C4', '#264378', '#76AE4F','#5B9CD5' /*'#000000'*/];
+const NOMINAL_COLOR = ['#ED7D31', '#4472C4', '#FFC207', '#76AE4F', '#9E480E', '#A5A5A5', '#4472C4', '#264378', '#76AE4F','#5B9CD5' /*'#000000'*/];
 
 const ExcelThemeMarkCommonStyle = {
     color: NOMINAL_COLOR[0],
