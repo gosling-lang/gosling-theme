@@ -16,21 +16,39 @@ export const light = {
     root: {
         background: 'white',
         titleColor: 'black',
+        titleBackgroundColor: 'transparent',
+        titleFontSize: 18,
+        titleFontFamily: 'Arial',
+        titleAlign: 'left',
+        titleFontWeight: 'bold',
         subtitleColor: 'gray',
+        subtitleBackgroundColor: 'transparent',
+        subtitleFontSize: 16,
+        subtitleFontFamily: 'Arial',
+        subtitleFontWeight: 'normal',
+        subtitleAlign: 'left',
         mousePositionColor: '#000000'
     },
 
     track: {
+        background: 'transparent',
+        alternatingBackground: 'transparent',
         titleColor: 'black',
         titleBackground: 'white',
+        titleFontSize: 24,
+        titleAlign: 'left',
         outline: 'black',
         outlineWidth: 1
     },
 
     legend: {
+        position: 'top',
         background: 'white',
         backgroundOpacity: 0.7,
         labelColor: 'black',
+        labelFontSize: 12,
+        labelFontWeight: 'normal',
+        labelFontFamily: 'Arial',
         backgroundStroke: '#DBDBDB',
         tickColor: 'black'
     },
@@ -38,9 +56,14 @@ export const light = {
     axis: {
         tickColor: 'black',
         labelColor: 'black',
+        labelFontSize: 12,
+        labelFontWeight: 'normal',
+        labelFontFamily: 'Arial',
         baselineColor: 'black',
         gridColor: '#E3E3E3',
-        gridStrokeWidth: 1
+        gridStrokeWidth: 1,
+        gridStrokeType: 'solid',
+        gridStrokeDash: [4, 4]
     },
 
     markCommon: {
