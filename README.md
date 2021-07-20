@@ -49,6 +49,15 @@ To test with other themes defined in `src/`, you need to change the following li
 
 If you make changes in files below `src/`, you will need to re-run the `yarn start` command to test in the demo webpage.
 
+### Updating Demo Page
+If you want to display a specific font family (e.g., 'Roboto Condensed') that is not installed in your computer, you may want to embed the font in the demo webpage. You can do this by adding a single line of code in `demo/index.html` (Refer to the current code):
+
+```html
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+```
+
+You can get this code, for example, in the Google Fonts website (https://fonts.google.com/specimen/Roboto+Condensed). Select "Light", "Regular", and "Bold" and the website will show you the source code like the above that you can use.
+
 ### Publish Package
 When you patch the version and push the code with tags, GitHub will do the job to publish the latest NPM package:
 
