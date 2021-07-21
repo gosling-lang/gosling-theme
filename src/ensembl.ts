@@ -15,32 +15,56 @@ export const ensembl = {
 
     root: {
         background: 'white',
-        titleColor: '#353535',
+        titleColor: 'white',
+        //titleFontSize:'',
+        //titleFontFamily:'',
+        titleAlign:'middle',
+        titleFontWeight:'bold',
+        titleBackgroundColor:'#7B8BAF',
         subtitleColor: '#494949',
+        //subtitleFontSize:'',
+        //subtitleFontFamily:'',
+        subtitleAlign:'left',
+        subtitleFontWeight:'normal',
+        subtitleBackgroundColor:'white',
         mousePositionColor: '#000000'
     },
 
     track: {
+        background:'white',
+        alternatingBackground:'#358ec9',
         titleColor: 'white',
         titleBackground: '#7B8BAF',
+        titleFontSize:'normal',
+        //titleAlign:'',
         outline: '#7B8BAF',
         outlineWidth: 1
     },
 
     legend: {
-        background: '#7B8BAF',
-        backgroundOpacity: 1,
+        position:'top',
+        tickColor: '#4f4f4f',
         labelColor: 'white',
-        backgroundStroke: 'white',
-        tickColor: '#4f4f4f'
+        //labelFontSize: '',
+        labelFontWeight: 'normal',
+        //labelFontFamily: '',
+        background: 'white',
+        backgroundOpacity: 1,
+        backgroundStroke: 'white'
+        
     },
 
     axis: {
         tickColor: '#4f4f4f',
-        labelColor: 'white',
+        labelColor: 'black',
+        //labelFontSize: '',
+        //labelFontWeight: '',
+        //labelFontFamily: '',
         baselineColor: 'black',
         gridColor: '#7B8BAF',
-        gridStrokeWidth: 1
+        gridStrokeWidth: 1,
+        //gridStrokeType: '',
+        //gridStrokeDash: 
     },
 
     markCommon: {
