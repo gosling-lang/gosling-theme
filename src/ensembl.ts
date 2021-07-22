@@ -16,13 +16,13 @@ export const ensembl = {
     root: {
         background: 'white',
         titleColor: 'white',
-        //titleFontSize:'',
+        titleFontSize:22,
         //titleFontFamily:'',
         titleAlign:'middle',
         titleFontWeight:'bold',
         titleBackgroundColor:'#7B8BAF',
         subtitleColor: '#494949',
-        //subtitleFontSize:'',
+        subtitleFontSize:18,
         //subtitleFontFamily:'',
         subtitleAlign:'left',
         subtitleFontWeight:'normal',
@@ -32,7 +32,7 @@ export const ensembl = {
 
     track: {
         background:'white',
-        alternatingBackground:'#358ec9',
+        alternatingBackground:'#dcf5f7',
         titleColor: 'white',
         titleBackground: '#7B8BAF',
         titleFontSize:'normal',
@@ -44,8 +44,8 @@ export const ensembl = {
     legend: {
         position:'top',
         tickColor: '#4f4f4f',
-        labelColor: 'white',
-        //labelFontSize: '',
+        labelColor: 'black',
+        //labelFontSize: ,
         labelFontWeight: 'normal',
         //labelFontFamily: '',
         background: 'white',
@@ -57,7 +57,7 @@ export const ensembl = {
     axis: {
         tickColor: '#4f4f4f',
         labelColor: 'black',
-        //labelFontSize: '',
+        //labelFontSize: ,
         //labelFontWeight: '',
         //labelFontFamily: '',
         baselineColor: 'black',
