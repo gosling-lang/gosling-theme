@@ -21,7 +21,7 @@ export const google = {
         titleAlign:'left',
         titleFontWeight:'normal',
         titleBackgroundColor:'white',
-        subtitleColor: 'black',
+        subtitleColor: '#e8e8e8',
         //subtitleFontSize:'',
         //subtitleFontFamily:'',
         subtitleAlign:'left',
@@ -32,7 +32,7 @@ export const google = {
 
     track: {
         background:'white',
-        alternatingBackground:'',
+        alternatingBackground:'#f5f5f5',
         titleColor: '#e8e8e8',
         titleBackground: 'white',
         //titleFontSize:'',
