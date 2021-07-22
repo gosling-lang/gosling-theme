@@ -15,13 +15,13 @@ export const google = {
 
     root: {
         background: 'white',
-        titleColor: '#e8e8e8',
+        titleColor: 'darkgray',
         //titleFontSize:'',
         //titleFontFamily:'',
         titleAlign:'left',
         titleFontWeight:'normal',
         titleBackgroundColor:'white',
-        subtitleColor: '#e8e8e8',
+        subtitleColor: 'gray',
         //subtitleFontSize:'',
         //subtitleFontFamily:'',
         subtitleAlign:'left',
