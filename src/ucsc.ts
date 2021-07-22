@@ -16,7 +16,7 @@ export const ucsc = {
     root: {
         background: 'white',
         titleColor: 'white',
-        titleFontSize:'22',
+        titleFontSize:22,
         //titleFontFamily:'',
         titleAlign:'middle',
         titleFontWeight:'bold',
