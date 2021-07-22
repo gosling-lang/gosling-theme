@@ -15,32 +15,56 @@ export const google = {
 
     root: {
         background: 'white',
-        titleColor: '#999999',
+        titleColor: '#e8e8e8',
+        //titleFontSize:'',
+        //titleFontFamily:'',
+        titleAlign:'left',
+        titleFontWeight:'normal',
+        titleBackgroundColor:'white',
         subtitleColor: 'black',
+        //subtitleFontSize:'',
+        //subtitleFontFamily:'',
+        subtitleAlign:'left',
+        subtitleFontWeight:'light',
+        subtitleBackgroundColor:'white',
         mousePositionColor: '#000000'
     },
 
     track: {
-        titleColor: '#999999',
+        background:'white',
+        alternatingBackground:'',
+        titleColor: '#e8e8e8',
         titleBackground: 'white',
+        //titleFontSize:'',
+        titleAlign:'left',
         outline: 'black',
         outlineWidth: 1
     },
 
     legend: {
+        position:'right',
         background: 'white',
-        backgroundOpacity: 0.7,
+        backgroundOpacity: 1,
         labelColor: 'black',
-        backgroundStroke: '#black',
+        //labelFontSize: '',
+        //labelFontWeight: '',
+        //labelFontFamily: '',
+        backgroundStroke: 'black',
         tickColor: 'black'
     },
 
     axis: {
+        //labelFontSize: '',
+        //labelFontWeight: '',
+        //labelFontFamily: '',
         tickColor: 'black',
         labelColor: 'black',
         baselineColor: 'black',
-        gridColor: '#black',
-        gridStrokeWidth: 1
+        gridColor: 'black',
+        gridStrokeWidth: 1,
+        gridStrokeType: '',
+        gridStrokeDash:
+
     },
 
     markCommon: {

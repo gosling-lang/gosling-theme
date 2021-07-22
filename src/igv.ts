@@ -15,22 +15,40 @@ export const igv = {
 
     root: {
         background: 'white',
-        titleColor: 'black',
-        subtitleColor: 'black',
+        titleColor: 'white',
+        //titleFontSize:'',
+        //titleFontFamily:'',
+        titleAlign:'left',
+        titleFontWeight:'bold',
+        titleBackgroundColor:'#5f5f5f',
+        subtitleColor: 'dark gray',
+        //subtitleFontSize:'',
+        //subtitleFontFamily:'',
+        subtitleAlign:'left',
+        subtitleFontWeight:'normal',
+        subtitleBackgroundColor:'#c4c4c4',
         mousePositionColor: 'black'
     },
 
     track: {
+        background:'white',
+        alternatingBackground:'#e8e8e8',
         titleColor: 'white',
         titleBackground: '#5F5F5F',
+        //titleFontSize:'',
+        //titleAlign:'',
         outline: '#5F5F5F',
         outlineWidth: 1
     },
 
     legend: {
-        background: '#FEFEFE',
-        backgroundOpacity: 0.7,
+        position:'top',
+        background: 'white',
+        backgroundOpacity: 1,
         labelColor: 'black',
+        //labelFontSize: '',
+        //labelFontWeight: '',
+        //labelFontFamily: '',
         backgroundStroke: 'black',
         tickColor: 'black'
     },
@@ -38,9 +56,15 @@ export const igv = {
     axis: {
         tickColor: 'black',
         labelColor: 'black',
+        //labelFontSize: '',
+        //labelFontWeight: '',
+        //labelFontFamily: '',
         baselineColor: '#E6E6E6',
         gridColor: 'transparent',
-        gridStrokeWidth: 0
+        gridStrokeWidth: 0,
+        //gridStrokeType: '',
+        //gridStrokeDash: 
+
     },
 
     markCommon: {

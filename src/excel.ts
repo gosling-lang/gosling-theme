@@ -16,31 +16,56 @@ export const excel = {
     root: {
         background: 'white',
         titleColor: '#5A5A5A',
+        //titleFontSize:'',
+        //titleFontFamily:'',
+        titleAlign:'middle',
+        titleFontWeight:'bold',
+        titleBackgroundColor:'white',
         subtitleColor: '#5A5A5A',
+        //subtitleFontSize:'',
+        //subtitleFontFamily:'',
+        subtitleAlign:'middle',
+        subtitleFontWeight:'normal',
+        subtitleBackgroundColor:'white',
         mousePositionColor: '#000000'
     },
 
     track: {
+        background:'white',
+        alternatingBackground:'#d7e9f5',
         titleColor: '#5A5A5A',
         titleBackground: 'white',
+        //titleFontSize:'',
+        //titleAlign:'',
         outline: '#5A5A5A',
         outlineWidth: 1
     },
 
     legend: {
+        position:'right',
+        tickColor: '#5A5A5A',
+        labelColor: '#5A5A5A',
+        //labelFontSize: '',
+        labelFontWeight: 'bold',
+        //labelFontFamily: '',
         background: 'white',
         backgroundOpacity: 0.7,
-        labelColor: '#5A5A5A',
         backgroundStroke: '#5A5A5A',
-        tickColor: '#5A5A5A'
+        
     },
 
     axis: {
         tickColor: '#5A5A5A',
         labelColor: '#5A5A5A',
+        //labelFontSize: '',
+        //labelFontWeight: '',
+        //labelFontFamily: '',
         baselineColor: '#5A5A5A',
         gridColor: '#5A5A5A',
-        gridStrokeWidth: 1
+        gridStrokeWidth: 1,
+        //gridStrokeType: '',
+        //gridStrokeDash: 
+
     },
 
     markCommon: {
