@@ -16,7 +16,7 @@ export const ggplot = {
     root: {
         background: '#e8e8e8',
         titleColor: 'black',
-        titleFontSize:'22',
+        titleFontSize:20,
         //titleFontFamily:'',
         titleAlign:'middle',
         titleFontWeight:'bold',
@@ -31,8 +31,8 @@ export const ggplot = {
     },
 
     track: {
-        background:'white',
-        alternatingBackground:'#e8e8e8',
+        background:'#e8e8e8',
+        alternatingBackground:'#d1d1d1',
         titleColor: 'black',
         titleBackground: 'white',
         //titleFontSize:'',
