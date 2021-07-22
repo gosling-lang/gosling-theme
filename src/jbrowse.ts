@@ -1,4 +1,4 @@
-const NOMINAL_COLOR = ['#3A62FE', '#F85353', '#DCA326', '#03BF06', '#BABABA'/*'#000000'*/];
+const NOMINAL_COLOR = ['#3A62FE', '#F85353', '#3A62FE', '#F85353','#DCA326', '#03BF06', '#BABABA'/*'#000000'*/];
 
 const JBrowseThemeMarkCommonStyle = {
     color: NOMINAL_COLOR[0],
@@ -45,9 +45,9 @@ export const jbrowse = {
         position:'top',
         background: 'white',
         backgroundOpacity: 0.7,
-        labelColor: 'black',
+        labelColor: '#DCA326',
         //labelFontSize: '',
-        labelFontWeight: 'light',
+        labelFontWeight: 'normal',
         //labelFontFamily: '',
         backgroundStroke: '#black',
         tickColor: 'black'
@@ -55,9 +55,9 @@ export const jbrowse = {
 
     axis: {
         tickColor: 'black',
-        labelColor: 'black',
+        labelColor: '#DCA326',
         //labelFontSize: '',
-        labelFontWeight: 'light',
+        labelFontWeight: 'normal',
         //labelFontFamily: '',
         baselineColor: 'black',
         gridColor: '#c5d5d9',
