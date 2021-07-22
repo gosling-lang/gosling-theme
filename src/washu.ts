@@ -16,21 +16,39 @@ export const washu = {
     root: {
         background: 'white',
         titleColor: 'gray',
+        titleFontSize:'16',
+        //titleFontFamily:'',
+        titleAlign:'left',
+        titleFontWeight:'normal',
+        titleBackgroundColor:'white',
         subtitleColor: 'lightgray',
+        subtitleFontSize:'12',
+        //subtitleFontFamily:'',
+        subtitleAlign:'left',
+        subtitleFontWeight:'light',
+        subtitleBackgroundColor:'white',
         mousePositionColor: '#000000'
     },
 
     track: {
+        background:'white',
+        //alternatingBackground:'',
         titleColor: 'gray',
         titleBackground: 'white',
+        //titleFontSize:'',
+        titleAlign:'left',
         outline: 'gray',
         outlineWidth: 1
     },
 
     legend: {
+        position:'left',
         background: 'white',
-        backgroundOpacity: 0.7,
+        backgroundOpacity: 0.5,
         labelColor: 'gray',
+        //labelFontSize: '',
+        labelFontWeight: 'light',
+        //labelFontFamily: '',
         backgroundStroke: '#DBDBDB',
         tickColor: 'gray'
     },
@@ -38,9 +56,15 @@ export const washu = {
     axis: {
         tickColor: 'lightgray',
         labelColor: 'gray',
+        //labelFontSize: '',
+        labelFontWeight: 'light',
+        //labelFontFamily: '',
         baselineColor: 'gray',
         gridColor: 'transparent',
-        gridStrokeWidth: 0
+        gridStrokeWidth: 0//,
+        //gridStrokeType: '',
+        //gridStrokeDash:
+
     },
 
     markCommon: {
