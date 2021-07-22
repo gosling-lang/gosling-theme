@@ -1,4 +1,4 @@
-const NOMINAL_COLOR = ['#AEAFEA','#EBAEAE','#37E649','#ED2D44','#CE7B3D','#8743E0','#5233F0'];
+const NOMINAL_COLOR = ['#37E649','#ED2D44','#AEAFEA','#EBAEAE','#CE7B3D','#8743E0','#5233F0'];
 
 const IGVThemeMarkCommonStyle = {
     color: NOMINAL_COLOR[0],
@@ -21,7 +21,7 @@ export const igv = {
         titleAlign:'left',
         titleFontWeight:'bold',
         titleBackgroundColor:'#5f5f5f',
-        subtitleColor: 'dark gray',
+        subtitleColor: 'darkgray',
         //subtitleFontSize:'',
         //subtitleFontFamily:'',
         subtitleAlign:'left',
