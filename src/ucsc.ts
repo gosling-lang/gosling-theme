@@ -15,22 +15,40 @@ export const ucsc = {
 
     root: {
         background: 'white',
-        titleColor: 'black',
-        subtitleColor: 'gray',
+        titleColor: 'white',
+        titleFontSize:'22',
+        //titleFontFamily:'',
+        titleAlign:'middle',
+        titleFontWeight:'bold',
+        titleBackgroundColor:'#00457c',
+        subtitleColor: 'black',
+        //subtitleFontSize:'',
+        //subtitleFontFamily:'',
+        subtitleAlign:'middle',
+        subtitleFontWeight:'bold',
+        subtitleBackgroundColor:'white',
         mousePositionColor: '#FE0000'
     },
 
     track: {
-        titleColor: 'black',
+        background:'white',
+        alternatingBackground:'#e3f7fc',
+        titleColor: '#3A5FCD',
         titleBackground: 'white',
+        //titleFontSize:'',
+        //titleAlign:'',
         outline: 'black',
         outlineWidth: 1
     },
 
     legend: {
+        position:'top',
         background: 'white',
         backgroundOpacity: 0.7,
         labelColor: 'black',
+        //labelFontSize: '',
+        labelFontWeight: 'bold',
+        //labelFontFamily: '',
         backgroundStroke: '#DBDBDB',
         tickColor: 'black'
     },
@@ -38,9 +56,15 @@ export const ucsc = {
     axis: {
         tickColor: 'black',
         labelColor: '#3A5FCD',
+        //labelFontSize: '',
+        labelFontWeight: 'bold',
+        //labelFontFamily: '',
         baselineColor: 'black',
         gridColor: '#E3E3E3',
-        gridStrokeWidth: 1
+        gridStrokeWidth: 1//,
+        //gridStrokeType: '',
+        //gridStrokeDash:
+
     },
 
     markCommon: {
