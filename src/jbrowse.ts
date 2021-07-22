@@ -61,9 +61,9 @@ export const jbrowse = {
         //labelFontFamily: '',
         baselineColor: 'black',
         gridColor: '#c5d5d9',
-        gridStrokeWidth: 1,
-        gridStrokeType: '',
-        gridStrokeDash: 
+        gridStrokeWidth: 1//,
+        //gridStrokeType: '',
+        //gridStrokeDash: 
 
     },
 
