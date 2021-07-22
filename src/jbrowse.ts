@@ -15,12 +15,26 @@ export const jbrowse = {
 
     root: {
         background: 'white',
-        titleColor: 'black',
-        subtitleColor: 'gray',
+        titleColor: 'white',
+        //titleFontSize:'',
+        //titleFontFamily:'',
+        titleAlign:'middle',
+        titleFontWeight:'light',
+        titleBackgroundColor:'#0b243f',
+        subtitleColor: 'white',
+        subtitleFontSize:'',
+        //subtitleFontFamily:'',
+        subtitleAlign:'middle',
+        subtitleFontWeight:'light',
+        subtitleBackgroundColor:'#732162',
         mousePositionColor: '#000000'
     },
 
     track: {
+        background:'white',
+        alternatingBackground:'white',
+        //titleFontSize:'',
+        titleAlign:'middle',
         titleColor: 'white',
         titleBackground: '#0B243F',
         outline: 'black',
@@ -28,9 +42,13 @@ export const jbrowse = {
     },
 
     legend: {
-        background: '#732162',
+        position:'top',
+        background: 'white',
         backgroundOpacity: 0.7,
         labelColor: 'black',
+        //labelFontSize: '',
+        labelFontWeight: 'light',
+        //labelFontFamily: '',
         backgroundStroke: '#black',
         tickColor: 'black'
     },
@@ -38,9 +56,15 @@ export const jbrowse = {
     axis: {
         tickColor: 'black',
         labelColor: 'black',
+        //labelFontSize: '',
+        labelFontWeight: 'light',
+        //labelFontFamily: '',
         baselineColor: 'black',
         gridColor: '#c5d5d9',
-        gridStrokeWidth: 1
+        gridStrokeWidth: 1,
+        gridStrokeType: '',
+        gridStrokeDash: 
+
     },
 
     markCommon: {
