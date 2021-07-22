@@ -22,7 +22,7 @@ export const jbrowse = {
         titleFontWeight:'light',
         titleBackgroundColor:'#0b243f',
         subtitleColor: 'white',
-        subtitleFontSize:'',
+        //subtitleFontSize:'',
         //subtitleFontFamily:'',
         subtitleAlign:'middle',
         subtitleFontWeight:'light',
