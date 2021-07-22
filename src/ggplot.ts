@@ -14,33 +14,58 @@ export const ggplot = {
     base: 'ggplot',
 
     root: {
-        background: 'WHITE',
+        background: '#e8e8e8',
         titleColor: 'black',
-        subtitleColor: 'darkgray',
+        titleFontSize:'22',
+        //titleFontFamily:'',
+        titleAlign:'middle',
+        titleFontWeight:'bold',
+        titleBackgroundColor:'white',
+        subtitleColor: 'gray',
+        //subtitleFontSize:'',
+        //subtitleFontFamily:'',
+        subtitleAlign:'left',
+        subtitleFontWeight:'light',
+        subtitleBackgroundColor:'white',
         mousePositionColor: 'black'
     },
 
     track: {
+        background:'white',
+        alternatingBackground:'#e8e8e8',
         titleColor: 'black',
         titleBackground: 'white',
+        //titleFontSize:'',
+        //titleAlign:'',
         outline: 'black',
         outlineWidth: 1
     },
 
     legend: {
-        background: 'white',
-        backgroundOpacity: 0.7,
+        position:'right',
+        background: '#e8e8e8',
+        backgroundOpacity: 1,
         labelColor: 'black',
         backgroundStroke: 'white',
-        tickColor: 'black'
+        tickColor: 'white',
+        //,labelFontSize: '',
+        //labelFontWeight: '',
+        //labelFontFamily: ''
+
     },
 
     axis: {
-        tickColor: 'black',
-        labelColor: 'gray',
-        baselineColor: 'black',
+        tickColor: 'white',
+        labelColor: 'black',
+        //labelFontSize: '',
+        //labelFontWeight: '',
+        //labelFontFamily: '',
+        baselineColor: '#e8e8e8',
         gridColor: 'white',
         gridStrokeWidth: 1
+        //,gridStrokeType: '',
+        //gridStrokeDash: 
+
     },
 
     markCommon: {
