@@ -21,11 +21,11 @@ export const igv = {
         titleAlign:'left',
         titleFontWeight:'bold',
         titleBackgroundColor:'#5f5f5f',
-        subtitleColor: 'darkgray',
+        subtitleColor: '#3b3b3b',
         //subtitleFontSize:'',
         //subtitleFontFamily:'',
         subtitleAlign:'left',
-        subtitleFontWeight:'normal',
+        subtitleFontWeight:'bold',
         subtitleBackgroundColor:'#c4c4c4',
         mousePositionColor: 'black'
     },
