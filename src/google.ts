@@ -61,9 +61,9 @@ export const google = {
         labelColor: 'black',
         baselineColor: 'black',
         gridColor: 'black',
-        gridStrokeWidth: 1,
-        gridStrokeType: '',
-        gridStrokeDash:
+        gridStrokeWidth: 1//,
+        //gridStrokeType: '',
+        //gridStrokeDash:
 
     },
 
