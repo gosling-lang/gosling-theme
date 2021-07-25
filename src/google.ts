@@ -2,9 +2,9 @@ const NOMINAL_COLOR = ['#4185f4', '#DB4437', '#F4B400', '#0D9D58', '#AA30C3', '#
 
 const GoogleThemeMarkCommonStyle = {
     color: NOMINAL_COLOR[0],
-    size: 1,
+    size: 2,
     stroke: 'black',
-    strokeWidth: 0,
+    strokeWidth: 0.5,
     opacity: 1,
     nominalColorRange: NOMINAL_COLOR,
     quantitativeSizeRange: [2, 6]
@@ -16,14 +16,14 @@ export const google = {
     root: {
         background: 'white',
         titleColor: 'darkgray',
-        //titleFontSize:'',
-        //titleFontFamily:'',
+        titleFontSize: 20,
+        titleFontFamily:'Arial',
         titleAlign:'left',
         titleFontWeight:'normal',
         titleBackgroundColor:'white',
         subtitleColor: 'gray',
-        //subtitleFontSize:'',
-        //subtitleFontFamily:'',
+        subtitleFontSize:'16',
+        subtitleFontFamily:'Arial',
         subtitleAlign:'left',
         subtitleFontWeight:'light',
         subtitleBackgroundColor:'white',
@@ -35,7 +35,7 @@ export const google = {
         alternatingBackground:'#f5f5f5',
         titleColor: '#e8e8e8',
         titleBackground: 'white',
-        //titleFontSize:'',
+        titleFontSize:12,
         titleAlign:'left',
         outline: 'black',
         outlineWidth: 1
@@ -46,17 +46,17 @@ export const google = {
         background: 'white',
         backgroundOpacity: 1,
         labelColor: 'black',
-        //labelFontSize: '',
-        //labelFontWeight: '',
-        //labelFontFamily: '',
+        labelFontSize: 12,
+        labelFontWeight: 'normal',
+        labelFontFamily: 'Arial',
         backgroundStroke: 'black',
         tickColor: 'black'
     },
 
     axis: {
-        //labelFontSize: '',
-        //labelFontWeight: '',
-        //labelFontFamily: '',
+        labelFontSize: 12,
+        labelFontWeight: 'normal',
+        labelFontFamily: 'Arial',
         tickColor: 'black',
         labelColor: 'black',
         baselineColor: 'black',
