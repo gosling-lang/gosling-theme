@@ -104,9 +104,6 @@ export const google = {
     },
     brush: {
         ...GoogleThemeMarkCommonStyle,
-        color: '#999999',
-        opacity: 0.3,
-        stroke: 'black',
         strokeWidth: 1
     }
 }
