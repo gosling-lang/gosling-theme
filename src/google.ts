@@ -22,7 +22,7 @@ export const google = {
         titleFontWeight:'normal',
         titleBackgroundColor:'white',
         subtitleColor: 'gray',
-        subtitleFontSize:'16',
+        subtitleFontSize: 16,
         subtitleFontFamily:'Arial',
         subtitleAlign:'left',
         subtitleFontWeight:'light',
