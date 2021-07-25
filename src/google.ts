@@ -4,7 +4,7 @@ const GoogleThemeMarkCommonStyle = {
     color: NOMINAL_COLOR[0],
     size: 2,
     stroke: 'black',
-    strokeWidth: 0.5,
+    strokeWidth: 0.3,
     opacity: 1,
     nominalColorRange: NOMINAL_COLOR,
     quantitativeSizeRange: [2, 6]
@@ -15,13 +15,13 @@ export const google = {
 
     root: {
         background: 'white',
-        titleColor: 'darkgray',
+        titleColor: '#454545',
         titleFontSize: 20,
         titleFontFamily:'Arial',
         titleAlign:'left',
         titleFontWeight:'normal',
         titleBackgroundColor:'white',
-        subtitleColor: 'gray',
+        subtitleColor: '#7d7d7d',
         subtitleFontSize: 16,
         subtitleFontFamily:'Arial',
         subtitleAlign:'left',
