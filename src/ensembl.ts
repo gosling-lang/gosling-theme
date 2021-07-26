@@ -15,51 +15,51 @@ export const ensembl = {
 
     root: {
         background: 'white',
-        titleColor: 'white',
-        titleFontSize:22,
-        //titleFontFamily:'',
+        titleColor: '#494949',
+        titleFontSize:24,
+        titleFontFamily:'Heldustry',
         titleAlign:'middle',
         titleFontWeight:'bold',
         titleBackgroundColor:'#7B8BAF',
-        subtitleColor: '#494949',
-        subtitleFontSize:18,
-        //subtitleFontFamily:'',
+        subtitleColor: 'white',
+        subtitleFontSize:19,
+        subtitleFontFamily:'Heldustry',
         subtitleAlign:'left',
         subtitleFontWeight:'normal',
-        subtitleBackgroundColor:'white',
+        subtitleBackgroundColor:'#7B8BAF',
         mousePositionColor: '#FE0000'
     },
 
     track: {
         background:'white',
-        alternatingBackground:'#dcf5f7',
-        titleColor: 'white',
-        titleBackground: '#7B8BAF',
+        alternatingBackground:'#fffdf7',
+        titleColor: 'black',
+        titleBackground: 'white',
         titleFontSize:'normal',
-        //titleAlign:'',
+        titleAlign:'left',
         outline: '#7B8BAF',
         outlineWidth: 1
     },
 
     legend: {
-        position:'top',
-        tickColor: '#4f4f4f',
+        position:'middle',
+        tickColor: 'black',
         labelColor: 'black',
         //labelFontSize: ,
         labelFontWeight: 'normal',
-        //labelFontFamily: '',
+        labelFontFamily: 'Heldustry',
         background: 'white',
         backgroundOpacity: 1,
-        backgroundStroke: 'white'
+        backgroundStroke: 'lightgray'
         
     },
 
     axis: {
-        tickColor: '#4f4f4f',
+        tickColor: 'black',
         labelColor: 'black',
         //labelFontSize: ,
         //labelFontWeight: '',
-        //labelFontFamily: '',
+        labelFontFamily: 'Heldustry',
         baselineColor: 'black',
         gridColor: '#7B8BAF',
         gridStrokeWidth: 1,
@@ -72,38 +72,101 @@ export const ensembl = {
     },
     point: {
         ...EnsemblThemeMarkCommonStyle,
+        /*color: NOMINAL_COLOR[0],
+        stroke: 'black',
+        strokeWidth: 0,
+        opacity: 1,
+        nominalColorRange: NOMINAL_COLOR,
+        quantitativeSizeRange: [2, 6]*/
         size: 3
     },
     rect: {
         ...EnsemblThemeMarkCommonStyle
+        /*color: NOMINAL_COLOR[0],
+        size: 1,
+        stroke: 'black',
+        strokeWidth: 0,
+        opacity: 1,
+        nominalColorRange: NOMINAL_COLOR,
+        quantitativeSizeRange: [2, 6]*/
     },
     triangle: {
         ...EnsemblThemeMarkCommonStyle
+        /*color: NOMINAL_COLOR[0],
+        size: 1,
+        stroke: 'black',
+        strokeWidth: 0,
+        opacity: 1,
+        nominalColorRange: NOMINAL_COLOR,
+        quantitativeSizeRange: [2, 6]*/
     },
     area: {
         ...EnsemblThemeMarkCommonStyle
+        /*color: NOMINAL_COLOR[0],
+        size: 1,
+        stroke: 'black',
+        strokeWidth: 0,
+        opacity: 1,
+        nominalColorRange: NOMINAL_COLOR,
+        quantitativeSizeRange: [2, 6]*/
     },
     line: {
         ...EnsemblThemeMarkCommonStyle
+        /*color: NOMINAL_COLOR[0],
+        size: 1,
+        stroke: 'black',
+        strokeWidth: 0,
+        opacity: 1,
+        nominalColorRange: NOMINAL_COLOR,
+        quantitativeSizeRange: [2, 6]*/
     },
     bar: {
         ...EnsemblThemeMarkCommonStyle
+        /*color: NOMINAL_COLOR[0],
+        size: 1,
+        stroke: 'black',
+        strokeWidth: 0,
+        opacity: 1,
+        nominalColorRange: NOMINAL_COLOR,
+        quantitativeSizeRange: [2, 6]*/
     },
     rule: {
         ...EnsemblThemeMarkCommonStyle,
+        /*color: NOMINAL_COLOR[0],
+        size: 1,
+        stroke: 'black',
+        opacity: 1,
+        nominalColorRange: NOMINAL_COLOR,
+        quantitativeSizeRange: [2, 6]*/
         strokeWidth: 1
     },
     link: {
         ...EnsemblThemeMarkCommonStyle,
+        /*color: NOMINAL_COLOR[0],
+        size: 1,
+        stroke: 'black',
+        opacity: 1,
+        nominalColorRange: NOMINAL_COLOR,
+        quantitativeSizeRange: [2, 6]*/
         strokeWidth: 1
     },
     text: {
         ...EnsemblThemeMarkCommonStyle,
+        /*color: NOMINAL_COLOR[0],
+        size: 1,
+        stroke: 'black',
+        strokeWidth: 0,
+        opacity: 1,
+        nominalColorRange: NOMINAL_COLOR,
+        quantitativeSizeRange: [2, 6]*/
         textAnchor: 'middle',
         textFontWeight: 'normal'
     },
     brush: {
         ...EnsemblThemeMarkCommonStyle,
+        /*size: 1,
+        nominalColorRange: NOMINAL_COLOR,
+        quantitativeSizeRange: [2, 6]*/
         color: 'gray',
         opacity: 0.3,
         stroke: 'black',
