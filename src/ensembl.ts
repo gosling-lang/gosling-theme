@@ -18,7 +18,7 @@ export const ensembl = {
         titleColor: '#494949',
         titleFontSize:24,
         titleFontFamily:'GGX88',
-        titleAlign:'middle',
+        titleAlign:'left',
         titleFontWeight:'bold',
         titleBackgroundColor:'white',
         subtitleColor: 'white',
@@ -38,7 +38,7 @@ export const ensembl = {
         titleFontSize:'normal',
         titleAlign:'left',
         outline: '#7B8BAF',
-        outlineWidth: 1
+        outlineWidth: 3
     },
 
     legend: {
