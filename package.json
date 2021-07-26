@@ -1,6 +1,6 @@
 {
   "name": "gosling-theme",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Styling Gosling Visualizations Using Theme",
   "main": "dist/gosling-theme.js",
   "unpkg": "dist/gosling-theme.min.js",
