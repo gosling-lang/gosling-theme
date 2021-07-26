@@ -38,7 +38,7 @@ export const ensembl = {
         titleFontSize:'normal',
         titleAlign:'left',
         outline: '#7B8BAF',
-        outlineWidth: 3
+        outlineWidth: 1
     },
 
     legend: {
