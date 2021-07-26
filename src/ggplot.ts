@@ -14,19 +14,19 @@ export const ggplot = {
     base: 'ggplot',
 
     root: {
-        background: '#e8e8e8',
+        background: 'white',
         titleColor: 'black',
-        titleFontSize:20,
-        //titleFontFamily:'',
+        titleFontSize: 18,
+        titleFontFamily:'Helvetica',
         titleAlign:'middle',
         titleFontWeight:'bold',
-        titleBackgroundColor:'#e8e8e8',
+        titleBackgroundColor:'white',
         subtitleColor: 'gray',
-        subtitleFontSize:16,
-        //subtitleFontFamily:'',
+        subtitleFontSize:14,
+        subtitleFontFamily:'Helvetica',
         subtitleAlign:'left',
         subtitleFontWeight:'light',
-        subtitleBackgroundColor:'#e8e8e8',
+        subtitleBackgroundColor:'white',
         mousePositionColor: 'black'
     },
 
@@ -38,7 +38,7 @@ export const ggplot = {
         //titleFontSize:'',
         //titleAlign:'',
         outline: 'black',
-        outlineWidth: 1
+        outlineWidth: 2
     },
 
     legend: {
@@ -62,7 +62,7 @@ export const ggplot = {
         //labelFontFamily: '',
         baselineColor: '#e8e8e8',
         gridColor: 'white',
-        gridStrokeWidth: 1
+        gridStrokeWidth: 2
         //,gridStrokeType: '',
         //gridStrokeDash: 
 
