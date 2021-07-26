@@ -47,7 +47,7 @@ export const jbrowse = {
         backgroundOpacity: 0.7,
         labelColor: '#DCA326',
         //labelFontSize: '',
-        labelFontWeight: 'normal',
+        labelFontWeight: 'bold',
         labelFontFamily: 'Roboto',
         backgroundStroke: '#black',
         tickColor: 'black'
@@ -57,7 +57,7 @@ export const jbrowse = {
         tickColor: 'black',
         labelColor: '#DCA326',
         //labelFontSize: '',
-        labelFontWeight: 'normal',
+        labelFontWeight: 'bold',
         labelFontFamily: 'Roboto',
         baselineColor: 'black',
         gridColor: '#c5d5d9',
