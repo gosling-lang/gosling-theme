@@ -38,7 +38,7 @@ export const ensembl = {
         titleFontSize:'normal',
         titleAlign:'left',
         outline: '#7B8BAF',
-        outlineWidth: 1
+        outlineWidth: 2
     },
 
     legend: {
@@ -49,7 +49,7 @@ export const ensembl = {
         labelFontWeight: 'normal',
         labelFontFamily: 'GGX88',
         background: 'white',
-        backgroundOpacity: 1,
+        backgroundOpacity: 2,
         backgroundStroke: 'lightgray'
         
     },
@@ -62,7 +62,7 @@ export const ensembl = {
         labelFontFamily: 'GGX88',
         baselineColor: 'black',
         gridColor: '#7B8BAF',
-        gridStrokeWidth: 1,
+        gridStrokeWidth: 2,
         //gridStrokeType: '',
         //gridStrokeDash: 
     },
