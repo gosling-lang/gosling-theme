@@ -24,7 +24,7 @@ export const ggplot = {
         subtitleColor: 'gray',
         subtitleFontSize:14,
         subtitleFontFamily:'Helvetica',
-        subtitleAlign:'left',
+        subtitleAlign:'middle',
         subtitleFontWeight:'light',
         subtitleBackgroundColor:'white',
         mousePositionColor: 'black'
