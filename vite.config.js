@@ -10,7 +10,7 @@ export default defineConfig({
   },
   build: {
     target: "esnext",
-    // minify: true,
+    // minify: false,
     outDir: resolve(__dirname, "dist"),
     emptyOutDir: true,
     lib: {
@@ -18,5 +18,6 @@ export default defineConfig({
       format: ["esm", "umd"],
       name: "goslingTheme",
     },
+    sourcemap: true,
   },
 });
