@@ -1,6 +1,5 @@
 // gosling.js should deploy @types/gosling.js
-// @ts-ignore
-import { GoslingSpec } from 'gosling.js';
+import type { GoslingSpec } from 'gosling.js';
 
 // Individual Themes
 // Based on https://github.com/gosling-lang/gosling.js/blob/58121b0d536e34c02cea9b2c046cc9efa734fe94/src/core/utils/theme.ts#L5
