@@ -14,15 +14,13 @@
     <script crossorigin type="text/javascript" src="example-1.js"></script>
     <script crossorigin type="text/javascript" src="example-2.js"></script>
     <script crossorigin type="text/javascript" src="https://unpkg.com/react@16/umd/react.development.js"></script>
-    <script crossorigin type="text/javascript"
-        src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script crossorigin type="text/javascript" src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
     <script crossorigin type="text/javascript" src="https://unpkg.com/pixi.js@5/dist/pixi.js"></script>
     <script crossorigin type="text/javascript" src="https://unpkg.com/gosling.js@0.8.10/dist/gosling.js"></script>
-    <script crossorigin type="text/javascript" src="dist/gosling-theme.js"></script>
 
     <!-- UI Components -->
     <b>Select Theme: </b>
-    <select name="demo" onChange="demo(this)">
+    <select id="demo">
         <option value='light' selected>light</option>
         <option value='dark'>dark</option>
         <option value='ensembl'>ensembl</option>
@@ -38,37 +36,44 @@
     </select>
     <div id="root" style="margin-top: 20px" />
 </body>
-<script>
+
+<script type="module">
+    import * as goslingTheme from "gosling-theme";
+
     console.log(`Gosling v${gosling.version}`);
     console.log(`goslingTheme`, goslingTheme);
     console.log('goslingTheme.Themes', goslingTheme.Themes);
 
     Object.keys(goslingTheme.Themes)
 
-    let selectedDemo = 'light';
     const exampleSpec = [example1, example2][0]; // we could change this to show different example
-    updateDemo();
-    
-    function demo(event) {
-        const themeName = event.value; // e.g., "washu"
-        selectedDemo = goslingTheme.IsThereTheme(themeName) ? themeName : event.value;
 
-        updateDemo();
-    }
-
-    function updateDemo() {
-        console.log(selectedDemo, goslingTheme.Themes[selectedDemo]);
+    function update(name) {
+        const theme = goslingTheme.Themes[name];
+		console.log({ name, theme });
         gosling.embed(
-            document.getElementById('root'),
+            document.getElementById("root"),
             JSON.parse(JSON.stringify(exampleSpec)),
             {
                 // margin: 30,
                 // padding: 0,
                 // border: '1px dashed gray',
-                theme: goslingTheme.Themes[selectedDemo]
+                theme,
             }
-        );        
+        );
     }
+
+    update("light");
+    document
+		.getElementById("demo")
+		.addEventListener("change", (event) => {
+			const themeName = event.target.value;
+			if (goslingTheme.IsThereTheme(themeName)) {
+				update(event.target.value); // e.g., "washu"
+			} else {
+				console.error(`${themeName} is not a supported theme`);
+			}
+		});
 </script>
 
 </html>

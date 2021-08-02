@@ -2,34 +2,16 @@
     "compilerOptions": {
       "target": "es6",
       "module": "esnext",
-      "moduleResolution": "node",
-      "lib": [
-        "dom",
-        "dom.iterable",
-        "esnext"
-      ],
-      "outDir": "dist",
-      "alwaysStrict": true,
-      "allowJs": true,
-      "sourceMap": true,
-      "declaration": true,
-      "declarationMap": true,
-      "skipLibCheck": true,
-      "esModuleInterop": true,
-      "allowSyntheticDefaultImports": true,
       "strict": true,
-      "strictNullChecks": true,
-      "resolveJsonModule": true,
-      "jsx": "react"
+      "skipLibCheck": true,
+      "moduleResolution": "node",
+      "baseUrl": "./src",
+      "paths": {
+        // alias correct import for gosling
+        "gosling.js": ["../node_modules/gosling.js/dist/src"]
+      },
+      "declaration": true,
+      "declarationDir": "dist/types",
+      "emitDeclarationOnly": true,
     },
-    "files": [
-      "src/index.ts"
-    ],
-    "include": ["src"],
-    "exclude": [
-      "node_modules",
-      "public",
-      "build",
-      "dist",
-    ]
   }
