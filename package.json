@@ -9,7 +9,7 @@
   "repository": "https://github.com/gosling-lang/gosling-theme",
   "license": "MIT",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "vite build && tsc"
   },
   "devDependencies": {
