@@ -20,20 +20,7 @@
 
   <!-- UI Components -->
   <b>Select Theme: </b>
-  <select id="demo">
-      <option value="light" selected>light</option>
-      <option value="dark">dark</option>
-      <option value="ensembl">ensembl</option>
-      <option value="excel">excel</option>
-      <option value="ggplot">ggplot</option>
-      <option value="google">google</option>
-      <option value="igv">igv</option>
-      <option value="jbrowse">jbrowse</option>
-      <option value="ucsc">ucsc</option>
-      <option value="warm">warm</option>
-      <option value="washu">washu</option>
-      <!-- Add More ... -->
-  </select>
+  <select id="demo"></select>
   <div id="root" style="margin-top: 20px" />
 </body>
 
@@ -44,7 +31,15 @@
     console.log(`goslingTheme`, goslingTheme);
     console.log("goslingTheme.Themes", goslingTheme.Themes);
 
-    Object.keys(goslingTheme.Themes);
+    const dropdown = document.getElementById("demo")
+
+	// Add options to dropdown
+    for (const themeName in goslingTheme.Themes) {
+      const opt = document.createElement("option");
+      opt.value = themeName;
+      opt.innerHTML = themeName;
+      dropdown.appendChild(opt);
+    }
 
     const exampleSpec = [example1, example2][0]; // we could change this to show different example
 
@@ -64,7 +59,7 @@
     }
 
     update("light");
-    document.getElementById("demo").addEventListener("change", (event) => {
+    dropdown.addEventListener("change", (event) => {
       const themeName = event.target.value;
       if (goslingTheme.IsThereTheme(themeName)) {
         update(event.target.value); // e.g., "washu"
