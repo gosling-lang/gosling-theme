@@ -32,7 +32,7 @@ example1 = {
                 },
                 "x": {"field": "start", "type": "genomic"},
                 "xe": {"field": "end", "type": "genomic"},
-                "y": {"field": "peak", "type": "quantitative"},
+                "y": {"field": "peak", "type": "quantitative", "axis": "right"},
                 "color": {"field": "sample", "type": "nominal"},
                 "width": 500,
                 "height": 130
