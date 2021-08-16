@@ -35,7 +35,7 @@ export const light = {
         alternatingBackground: 'transparent',
         titleColor: 'black',
         titleBackground: 'white',
-        titleFontSize: 24,
+        titleFontSize: 12,
         titleAlign: 'left',
         outline: 'black',
         outlineWidth: 1
