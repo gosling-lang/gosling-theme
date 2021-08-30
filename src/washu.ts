@@ -27,6 +27,7 @@ export const washu = {
         subtitleAlign:'left',
         subtitleFontWeight:'light',
         subtitleBackgroundColor:'white',
+        showMousePosition: true,
         mousePositionColor: '#000000'
     },
 

@@ -29,10 +29,10 @@ export const Themes = {
     google
 }
 
-export function IsThereTheme(key: string) {
+export function isThereTheme(key: string) {
     return Object.keys(Themes).indexOf(key) !== -1;
 }
 
 export function getTheme(key: string) {
-    return IsThereTheme(key) ? (Themes as any)[key] : Themes['light'];
+    return isThereTheme(key) ? (Themes as any)[key] : Themes['light'];
 }

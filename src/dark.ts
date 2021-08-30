@@ -19,7 +19,8 @@ export const dark = {
         background: 'black',
         titleColor: 'white',
         subtitleColor: 'lightgray',
-        mousePositionColor: '#FFFFFF'
+        mousePositionColor: '#FFFFFF',
+        showMousePosition: true
     },
 
     track: {

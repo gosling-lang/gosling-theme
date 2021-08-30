@@ -27,6 +27,7 @@ export const jbrowse = {
         subtitleAlign:'middle',
         subtitleFontWeight:'normal',
         subtitleBackgroundColor:'#732162',
+        showMousePosition: true,
         mousePositionColor: '#000000'
     },
 

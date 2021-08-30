@@ -27,6 +27,7 @@ export const ucsc = {
         subtitleAlign:'middle',
         subtitleFontWeight:'bold',
         subtitleBackgroundColor:'white',
+        showMousePosition: true,
         mousePositionColor: '#FE0000'
     },
 

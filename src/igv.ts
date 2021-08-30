@@ -27,6 +27,7 @@ export const igv = {
         subtitleAlign:'left',
         subtitleFontWeight:'bold',
         subtitleBackgroundColor:'#c4c4c4',
+        showMousePosition: true,
         mousePositionColor: 'black'
     },
 

@@ -27,6 +27,7 @@ export const ggplot = {
         subtitleAlign:'middle',
         subtitleFontWeight:'light',
         subtitleBackgroundColor:'white',
+        showMousePosition: true,
         mousePositionColor: 'black'
     },
 

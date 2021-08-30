@@ -27,6 +27,7 @@ export const light = {
         subtitleFontFamily: 'Arial',
         subtitleFontWeight: 'normal',
         subtitleAlign: 'left',
+        showMousePosition: true,
         mousePositionColor: '#000000'
     },
 

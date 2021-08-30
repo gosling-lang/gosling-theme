@@ -27,6 +27,7 @@ export const excel = {
         subtitleAlign:'middle',
         subtitleFontWeight:'bold',
         subtitleBackgroundColor:'white',
+        showMousePosition: true,
         mousePositionColor: '#000000'
     },
 

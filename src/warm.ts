@@ -17,6 +17,7 @@ export const warm = {
         background: '#FFF8E8',
         titleColor: '#3C3C3C',
         subtitleColor: 'gray',
+        showMousePosition: true,
         mousePositionColor: '#3C3C3C'
     },
 

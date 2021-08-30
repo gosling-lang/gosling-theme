@@ -27,7 +27,8 @@ export const ensembl = {
         subtitleAlign:'left',
         subtitleFontWeight:'normal',
         subtitleBackgroundColor:'#7B8BAF',
-        mousePositionColor: '#FE0000'
+        mousePositionColor: '#FE0000',
+        showMousePosition: true
     },
 
     track: {
