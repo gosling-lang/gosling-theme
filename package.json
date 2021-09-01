@@ -12,6 +12,9 @@
     "start": "vite",
     "build": "vite build && tsc"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "gh-pages": "^3.2.3",
     "gosling.js": "0.9.1",
